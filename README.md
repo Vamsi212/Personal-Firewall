@@ -25,17 +25,16 @@ A lightweight, Python-based personal firewall that provides **real-time network 
 
 ## 📁 Project Structure
 
-<details> <summary>Click to expand</summary>
-yaml
-Copy
-Edit
+```bash
 personal_firewall/
-├── firewall.py             # Core sniffer and filtering logic
-├── firewall_gui.py         # Tkinter-based GUI control panel
-├── iptables_blocker.py     # CLI utility for managing iptables rules
-├── rules.json              # JSON file for user-defined block rules
+├── firewall.py # Sniffs and filters packets based on rules
+├── firewall_gui.py # GUI to start/stop firewall and manage iptables
+├── iptables_blocker.py # CLI-based iptables rule manager
+├── rules.json # Custom IP/port/protocol blocking rules
 ├── logs/
-│   └── blocked.log         # Log file for blocked packets
-├── requirements.txt        # Required Python libraries
-└── Readme.md               # Project documentation (this file)
-</details>
+│ └── blocked.log # Logs of blocked/suspicious packets
+├── requirements.txt # Required Python libraries
+└── Readme.md # Project overview and usage instructions
+
+```
+
