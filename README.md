@@ -1,4 +1,4 @@
-# 🔥 Python Personal Firewall (GUI + iptables)
+# Python Personal Firewall (GUI)
 
 A lightweight, Python-based personal firewall that provides **real-time network monitoring**, **rule-based blocking**, and **system-level packet filtering** using `iptables`. Built with **Scapy**, **Tkinter**, and standard Python modules, this tool offers both a GUI and CLI interface for managing and securing your local network traffic.
 
