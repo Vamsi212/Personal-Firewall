@@ -38,3 +38,9 @@ personal_firewall/
 
 ```
 
+## 🖼️ Screenshot
+
+### Firewall GUI & Blocked Access Demonstration
+
+![Firewall GUI](screenshots/GUIFirewall.png)
+
