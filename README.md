@@ -25,6 +25,10 @@ A lightweight, Python-based personal firewall that provides **real-time network 
 
 ## 📁 Project Structure
 
+<details> <summary>Click to expand</summary>
+yaml
+Copy
+Edit
 personal_firewall/
 ├── firewall.py             # Core sniffer and filtering logic
 ├── firewall_gui.py         # Tkinter-based GUI control panel
@@ -34,3 +38,4 @@ personal_firewall/
 │   └── blocked.log         # Log file for blocked packets
 ├── requirements.txt        # Required Python libraries
 └── Readme.md               # Project documentation (this file)
+</details>
